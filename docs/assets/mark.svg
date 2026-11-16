@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">CTF Urdu Hub mark</title>
+  <rect width="64" height="64" rx="14" fill="#102324"/>
+  <path d="M16 19h32v7H23v12h25v7H16z" fill="#65e3d1"/>
+  <path d="M29 30h7v7h-7z" fill="#c0eb75"/>
+  <path d="M16 52h32" stroke="#ff83b9" stroke-linecap="round" stroke-width="3"/>
+</svg>
