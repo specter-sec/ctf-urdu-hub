@@ -1,0 +1,19 @@
+{
+  "name": "ctf-urdu-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lint tooling for the CTF Urdu Hub MkDocs documentation site.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "lint": "markdownlint-cli2"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.24.1"
+  },
+  "overrides": {
+    "katex": "0.19.1"
+  }
+}

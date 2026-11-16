@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# MkDocs output and caches
+/site/
+/.cache/
+
+# Node tooling
+/node_modules/
+
+# Locally generated lab fixtures (not source examples)
+/labs/work/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

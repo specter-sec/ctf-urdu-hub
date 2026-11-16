@@ -1,0 +1,97 @@
+site_name: CTF Urdu Hub
+site_description: Roman Urdu/Hinglish CTF learning notes, ethical practice aur beginner-friendly labs.
+site_author: IFTIKHAR
+site_url: https://specter-sec.github.io/ctf-urdu-hub/
+repo_url: https://github.com/specter-sec/ctf-urdu-hub
+repo_name: specter-sec/ctf-urdu-hub
+strict: true
+
+copyright: Copyright &copy; 2026 IFTIKHAR
+
+nav:
+  - Home: index.md
+  - Shuruat:
+      - Getting Started: guides/getting-started.md
+      - Tools: guides/tools.md
+      - Roadmap: guides/roadmap.md
+      - Writeup Template: template.md
+      - Ethics & Safe Practice: ethics.md
+  - Web: categories/web.md
+  - Crypto: categories/crypto.md
+  - Forensics: categories/forensics.md
+  - Pwn: categories/pwn.md
+  - Reverse: categories/reverse.md
+  - OSINT: categories/osint.md
+  - Beginner Linux: categories/beginner-linux.md
+  - Writeups:
+      - Web — Source Pehchano: writeups/web/source-pehchano.md
+      - Crypto — ROT13 Ka Raaz: writeups/crypto/rot13-ka-raaz.md
+      - Forensics — Image Ke Andar: writeups/forensics/image-ke-andar.md
+      - Beginner Linux — File Dhoondo: writeups/linux/file-dhoondo.md
+      - OSINT — Metadata Ka Nishan: writeups/osint/metadata-ka-nishan.md
+  - Tags: tags.md
+
+theme:
+  name: material
+  font: false
+  logo: assets/mark.svg
+  favicon: assets/mark.svg
+  language: en
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+extra_css:
+  - assets/css/extra.css
+extra_javascript: []
+
+plugins:
+  - search:
+      lang: en
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  generator: false
+  social: []
